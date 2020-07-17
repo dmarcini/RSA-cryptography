@@ -10,6 +10,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 include_directories(include)
 
 set(SOURCES src/main.cpp
-            src/keys_generator.cpp)
+            src/keys_generator.cpp
+            src/encryptor_decryptor.cpp)
 
 add_executable(RSA-cryptography ${SOURCES})
