@@ -14,3 +14,6 @@ set(SOURCES src/main.cpp
             src/encryptor_decryptor.cpp)
 
 add_executable(RSA-cryptography ${SOURCES})
+
+target_link_libraries(RSA-cryptography /usr/local/lib/libmath.a)
+
